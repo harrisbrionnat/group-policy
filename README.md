@@ -13,3 +13,6 @@ Go to 'Account lockout Threshold' and set it to 3. Attempt to login to a domain 
  <p>
 <img src="https://imgur.com/JDtMP5Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<img src="https://imgur.com/gG08Ht8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
