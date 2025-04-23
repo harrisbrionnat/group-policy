@@ -12,8 +12,8 @@ Go to **Account Lockout Threshold** and set it to **3**. Attempt to log in to a 
 <p align="center">
   <img src="https://imgur.com/gG08Ht8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-### Set up an Network Drive Map Using Group Policy
 
+### Set up an Network Mapping Drive Using Group Policy
 Navigate to the Group Policy Management Console. Right-click **Start**, click **Run**, and type `gpmc.msc`. Click the domain and expand it. Right-click **Group Policy Objects**, then click **New**. Name it `Account-Lockout`. Right-click the new group policy and select **Edit** → **Computer Configuration** → **Windows Configuration** → **Security Settings** → **Account Policies** → **Account Lockout Policies**.
 <p align="center">
   <img src="https://imgur.com/rLU3f6i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
