@@ -13,13 +13,14 @@ Go to **Account Lockout Threshold** and set it to **3**. Attempt to log in to a 
   <img src="https://imgur.com/gG08Ht8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-### Set up an Network Mapping Drive Using Group Policy
-We can choose to map the Top-Secret folder automatically using a Group Policy Object. Right-click **Start**, click **Run**, and type `gpmc.msc`. Click the domain and expand it. Right-click **Group Policy Objects**, then click **New**. Name it `Mapping Drives`. Right-click the new group policy and select **Edit** → **User Configuration** → **Preferences**. Right click 'Drive Maps'. Add the location of the drive. (e.g. \\ad-dc\Top-Secret). Label it 'Top-Secret'. Select a drive letter (e.g. S). Click apply and ok.
+### Set up a Network Mapping Drive Using Group Policy
+
+We can choose to map the `Top-Secret` folder automatically using a Group Policy Object. Right-click **Start**, click **Run**, and type `gpmc.msc`. Click the domain and expand it. Right-click **Group Policy Objects**, then click **New**. Name it `Mapping Drives`. Right-click the new group policy and select **Edit** → **User Configuration** → **Preferences**. Right-click **Drive Maps**, then add the location of the drive (e.g., `\\ad-dc\Top-Secret`). Label it **Top-Secret**. Select a drive letter (e.g., S). Click **Apply** and then **OK**.
 <p align="center">
   <img src="https://imgur.com/HWZQwOV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-Link the new group policy to th 'Sales' Organizational Unit by moving it. 
+Link the new group policy to the 'Sales' Organizational Unit by moving it. 
 <p align="center">
   <img src="https://imgur.com/GzGZuyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -27,7 +28,7 @@ Link the new group policy to th 'Sales' Organizational Unit by moving it.
   <img src="https://imgur.com/Gh1q4Id.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-A member a of the SalesGroup Group will already have this folder shared on their S: drive without having to manually map it each time.
+A member of the `SalesGroup` will already have this folder shared on their S: drive without having to manually map it each time.
 <p align="center">
   <img src="https://imgur.com/jQEpnve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
