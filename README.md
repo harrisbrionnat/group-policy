@@ -27,3 +27,9 @@ Link the new group policy to th 'Sales' Organizational Unit by moving it.
   <img src="https://imgur.com/Gh1q4Id.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+A member a of the SalesGroup Group will already have this folder shared on their S: drive without having to manually map it each time.
+<p align="center">
+  <img src="https://imgur.com/jQEpnve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
