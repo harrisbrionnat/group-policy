@@ -24,6 +24,6 @@ Link the new group policy to th 'Sales' Organizational Unit by moving it.
   <img src="https://imgur.com/GzGZuyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p align="center">
-  <img src="https://imgur.com/gG08Ht8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/Gh1q4Id.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
